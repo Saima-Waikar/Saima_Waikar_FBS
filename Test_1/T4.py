@@ -1,9 +1,0 @@
-area = float(input("Enter area of one wall: "))
-interior_cost = float(input("Enter interior cost per wall: "))
-exterior_cost = float(input("Enter exterior cost per wall: "))
-interior_total = 8* area *interior_cost
-exterior_total = 6 *area * exterior_cost
-total_cost = interior_total + exterior_total
-print("Interior painting cost =", interior_total)
-print("Exterior painting cost =", exterior_total)
-print("Total painting cost =", total_cost)
