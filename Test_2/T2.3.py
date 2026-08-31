@@ -1,0 +1,12 @@
+l = 50
+b = 40
+r = 20
+perimeter_rectangle = 2 * (l + b)
+perimeter_semicircle = 3.14 * r
+perimeter = perimeter_rectangle + perimeter_semicircle
+wire = perimeter * 5
+cost = wire * 35
+print("Perimeter of rectangle =", perimeter_rectangle)
+print("Perimeter of semicircle =", perimeter_semicircle)
+print("Total wire required =", wire)
+print("Total cost =", cost)
