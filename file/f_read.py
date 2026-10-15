@@ -1,0 +1,5 @@
+f = open(r"D:\FBS\Core python\Demos\Basics\file\abc.txt", "r")
+data = f.read()
+data = f.readline()
+print(data)
+f.close()

@@ -1,0 +1,6 @@
+f = open(r"D:\FBS\Core python\Demos\Basics\file\abc.txt", "w+")
+f.write("Hello World")
+f.seek(0)
+data = f.read()
+print(data)
+f.close()
